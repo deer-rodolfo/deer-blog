@@ -1,4 +1,4 @@
-![a cube][https://github.com/deer-rodolfo/deer-blog/blob/master/src/images/cube.png]
+![a cube][https://raw.githubusercontent.com/deer-rodolfo/deer-blog/master/src/images/cube.png]
 
 ## Wolkenträumer
 
