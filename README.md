@@ -1,4 +1,4 @@
-![a cube][./src/images/cube.png]
+![a cube](./small_cube.png)
 
 ## Wolkenträumer
 
