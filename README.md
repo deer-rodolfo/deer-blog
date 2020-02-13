@@ -1,4 +1,4 @@
-![a cube](./src/images/cube.png)
+![a cube](./src/images/cube.png =30x30)
 
 ## Wolkenträumer
 
