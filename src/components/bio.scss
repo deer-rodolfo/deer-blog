@@ -1,0 +1,26 @@
+.bio-section {
+  display: grid;
+  grid-template-columns: 90px auto;
+  max-width: 500px;
+  margin-bottom: 1.8rem;
+}
+
+.description {
+  margin-left: 0.6rem;
+  h4 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+    a {
+      color: inherit;
+    }
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+.avatar {
+  min-width: 80px;
+  border-radius: 50%;
+}
