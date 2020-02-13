@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import PostContent from "../components/PostContent"
+import PostContent from "../components/postContent"
 
 export default ({ data }) => {
   const post = data.markdownRemark
