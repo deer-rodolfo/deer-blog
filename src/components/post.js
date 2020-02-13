@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import PropTypes from "prop-types"
-import PostContent from "./PostContent"
+import PostContent from "./postContent"
 import "./post.scss"
 
 const Post = ({ data }) => (
