@@ -9,7 +9,6 @@ const Bio = () => {
       site {
         siteMetadata {
           author
-          description
         }
       }
       placeholderImage: file(
@@ -39,7 +38,10 @@ const Bio = () => {
             {data.site.siteMetadata.author}
           </a>
         </h4>
-        <p>{data.site.siteMetadata.description}</p>
+        <p>
+          Olá, I am a portuguese developer and this are some of my projects and
+          ideas.
+        </p>
       </div>
     </section>
   )

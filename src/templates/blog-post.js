@@ -11,7 +11,10 @@ export default ({ data }) => {
   }
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
       <div>
         <h1>{post.frontmatter.title}</h1>
         <p style={dateStyle}>{post.frontmatter.date}</p>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Wolkenträumer`,
-    description: `Olá, I am a portuguese developer and this are some of my projects and ideas.`,
+    description: `Hallo, my name is Rodolfo Dutra. I a front-end developer from Portugal living in Leipzig. In this blog I share my projects, ideas and some pictures of clouds. `,
     author: `Rodolfo Dutra`,
   },
   plugins: [
