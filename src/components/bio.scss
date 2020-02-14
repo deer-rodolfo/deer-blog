@@ -2,11 +2,11 @@
   display: grid;
   grid-template-columns: 90px auto;
   max-width: 500px;
-  margin-bottom: 1.8rem;
+  margin: 1.8rem 0;
 }
 
 .description {
-  margin-left: 0.6rem;
+  margin-left: 0.8rem;
   h4 {
     margin-top: 0.3rem;
     margin-bottom: 0.2rem;
@@ -22,5 +22,6 @@
 
 .avatar {
   min-width: 80px;
+  align-self: center;
   border-radius: 50%;
 }
