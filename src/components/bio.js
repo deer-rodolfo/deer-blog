@@ -39,7 +39,7 @@ const Bio = () => {
           </a>
         </h4>
         <p>
-          Olá, I am a portuguese developer and this are some of my projects and
+          Olá, I am a portuguese developer and these are some of my projects and
           ideas.
         </p>
       </div>
