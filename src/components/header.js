@@ -11,10 +11,10 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
     <nav className="nav">
-      <Link to="about" className="nav__link">
+      <Link to="/about" className="nav__link">
         About
       </Link>
-      <Link to="contact" className="nav__link">
+      <Link to="/contact" className="nav__link">
         Contact
       </Link>
     </nav>
