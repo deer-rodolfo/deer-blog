@@ -4,10 +4,6 @@
     margin: 1rem auto;
     transition: 0.2s;
     cursor: pointer;
-    &:hover {
-      transform: scale(1.02);
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-    }
   }
   &__link {
     color: inherit;
@@ -43,5 +39,11 @@
     &__description {
       width: 100%;
     }
+  }
+  &__separator {
+    margin: auto;
+    width: 60%; 
+    height: 2px;
+    background-color: rgba(0,0,0,0.2);
   }
 }

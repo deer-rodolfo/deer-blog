@@ -22,6 +22,7 @@ const Post = ({ data }) => (
         />
       )}
     </div>
+    <hr className="post__separator"/>
   </Link>
 )
 
