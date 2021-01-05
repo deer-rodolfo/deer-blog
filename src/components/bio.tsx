@@ -1,16 +1,13 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import "./bio.scss"
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import './bio.scss'
 
-const Bio = () => {
+type BioProps = { author: string }
+
+const Bio = ({ author }: BioProps) => {
   const data = useStaticQuery(graphql`
     query {
-      site {
-        siteMetadata {
-          author
-        }
-      }
       placeholderImage: file(
         relativePath: { eq: "images/profile-rodolfo.jpg" }
       ) {
@@ -35,7 +32,7 @@ const Bio = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            {data.site.siteMetadata.author}
+            {author}
           </a>
         </h4>
         <p>

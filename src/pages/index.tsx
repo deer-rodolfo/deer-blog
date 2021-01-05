@@ -1,21 +1,23 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Bio from "../components/bio"
-import Post from "../components/post"
+import React from 'react'
+import { graphql } from 'gatsby'
+import { useSiteMetadata } from '../hooks/use-site-metadata'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import Bio from '../components/bio'
+import Post from '../components/post'
 
-const IndexPage = ({ data }) => (
-  <Layout>
-    <SEO title="Home" />
-    <Bio />
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-      <Post key={node.id} data={node} />
-    ))}
-  </Layout>
-)
-
-export default IndexPage
+export default function IndexPage({ data }) {
+  const { title, author } = useSiteMetadata()
+  return (
+    <Layout>
+      <SEO title={title} />
+      <Bio author={author} />
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <Post key={node.id} data={node} />
+      ))}
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query {

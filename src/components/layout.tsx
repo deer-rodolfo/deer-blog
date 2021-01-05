@@ -6,36 +6,23 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
+import { useSiteMetadata } from "../hooks/use-site-metadata"
 import Header from "./header"
 import "./layout.scss"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+type LayoutProps = {children:  JSX.Element[] | JSX.Element}
 
+const Layout = ({children}: LayoutProps) => {
+  const { title } = useSiteMetadata()
   return (
     <>
       <div className="container">
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={title} />
         <main>{children}</main>
         <footer>© {new Date().getFullYear()} Rodolfo Dutra</footer>
       </div>
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout
