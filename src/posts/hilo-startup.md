@@ -3,7 +3,7 @@ name: "hilo-startup"
 title: My coffee startup experience with Hilo
 date: "2020-05-10"
 image: "../images/hilo-coffee.png"
-type: "post"
+#type: "post"
 description: |
   Hilo is an amazing collective of people united to achieve a socially responsible coffee trade system connecting consumers to farmers and their community. And I would like to share my experience with this startup.
 ---

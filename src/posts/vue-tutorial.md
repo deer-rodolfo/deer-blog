@@ -3,7 +3,7 @@ name: "vue-tutorial"
 title: Learning by Teaching Vue.js
 date: "2019-12-16"
 image: "../images/vue-tutorial-logo.png"
-type: "post"
+#type: "post"
 description: |
   Some weeks ago I prepared and hosted a workshop on the basic features of Vue.js. I would like to share my experience and how the whole process helped me become more confident as a front-end developer.
 ---

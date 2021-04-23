@@ -36,8 +36,7 @@ const Bio = ({ author }: BioProps) => {
           </a>
         </h4>
         <p>
-          Olá, I am a portuguese developer and these are some of my projects and
-          ideas.
+          Olá, I am a portuguese developer and here are some clouds.
         </p>
       </div>
     </section>
